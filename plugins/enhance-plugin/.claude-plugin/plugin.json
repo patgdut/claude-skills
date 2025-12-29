@@ -1,0 +1,8 @@
+{
+  "name": "enhance-plugin",
+  "description": "Prompt enhancement skill that transforms vague user prompts into clear, structured, and actionable specifications",
+  "author": {
+    "name": "Claude Skills",
+    "email": "support@example.com"
+  }
+}
