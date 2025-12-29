@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-skills",
+  "description": "A collection of Claude Code plugins including prompt enhancement and development productivity tools",
+  "owner": {
+    "name": "Claude Skills",
+    "email": "support@example.com"
+  },
+  "plugins": [
+    {
+      "name": "enhance-plugin",
+      "description": "Prompt enhancement plugin that transforms vague user prompts into clear, structured, and actionable specifications following SMART principles",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Skills",
+        "email": "support@example.com"
+      },
+      "source": "./plugins/enhance-plugin",
+      "category": "productivity",
+      "homepage": "https://github.com/pat/claude-skills/tree/main/plugins/enhance-plugin"
+    },
+    {
+      "name": "example-plugin",
+      "description": "A comprehensive example plugin demonstrating all Claude Code extension options including commands, skills, and MCP servers",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Skills",
+        "email": "support@example.com"
+      },
+      "source": "./plugins/example-plugin",
+      "category": "development",
+      "homepage": "https://github.com/pat/claude-skills/tree/main/plugins/example-plugin"
+    }
+  ]
+}
